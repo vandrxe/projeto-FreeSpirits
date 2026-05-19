@@ -117,7 +117,7 @@ h5 {
     color: var(--forest-sage);
 }
 .txt-onyx {
-    color: #151515;
+    color: var(--onyx);
 }
 
 .bckg-deep-forest {
@@ -133,10 +133,53 @@ h5 {
     background-color: var(--forest-sage);
 }
 .bckg-onyx {
-    background-color: #151515;
+    background-color: var(--onyx-);
+}
+.bckg-white {
+    background-color: white;
 }
 
 /* Gerais */
+.btn {
+    border: none;
+}
+
 .rounded {
-    border-radius: 50px;
+    border-radius: 20px;
+}
+
+/* START */
+.first {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    width: 100%;
+    background-color: #151515;
+}
+
+.first .top {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.first .top .left {
+    background-image: url(https://media.gettyimages.com/id/474690025/pt/foto/crian%C3%A7as-no-jardim-zool%C3%B3gico-de-alimenta%C3%A7%C3%A3o-girafa.jpg?s=612x612&w=gi&k=20&c=_vSs_1S2eS7p_7S81xCptL6JuMTRp-EG8kKE6c7421c=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    margin-right: 2rem;
+
+}
+
+.first .top .left .content {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    width: 40%;
+}
+
+.first .top .right {
+    width: 25%;
 }
