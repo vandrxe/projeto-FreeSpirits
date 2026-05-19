@@ -1,0 +1,142 @@
+/* RESET */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* font-family: "Hodurah", sans-serif; */
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+body {
+  min-height: 100vh;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+/* Fontes */
+@font-face {
+    font-family: "Hodurah";
+    src: url(./fonts/hodurah.otf);
+}
+@font-face {
+    font-family: "Apercu";
+    font-weight: bold;
+    src: url(./fonts/apercu_bold_pro.otf);
+}
+@font-face {
+    font-family: "Apercu";
+    font-weight: normal;
+    src: url(./fonts/apercu_regular_pro.otf);
+}
+
+/* Text Size */
+* {
+    font-weight: normal;
+}
+.bold {
+    font-weight: bold;
+}
+
+/* Apercu */
+
+h2 {
+    font-family: "Apercu", sans-serif;
+    font-size: 80px;
+}
+h6 {
+    font-family: "Apercu", sans-serif;
+    font-size: 24px;
+}
+p {
+    font-family: "Apercu", sans-serif;
+    font-size: 18px;
+}
+p .aditional-txt {
+    font-family: "Apercu", sans-serif;
+    font-size: 16px;
+}
+
+/* Hodurah */
+h1 {
+    font-family: "Hodurah", sans-serif;
+    font-size: 80px;
+}
+h3 {
+    font-family: "Hodurah", sans-serif;
+    font-size: 48px;
+}
+h4 {
+    font-family: "Hodurah", sans-serif;
+    font-size: 32px;
+}
+h5 {
+    font-family: "Hodurah", sans-serif;
+    font-size: 24px;
+}
+
+/* Cores var */
+:root {
+  --deep-forest: #075D44;
+  --wild-orchid: #FFC5EE;
+  --soft-mist: #E6E8EC;
+  --forest-sage: #71A888;
+  --onyx: #151515;
+}
+
+.txt-deep-forest {
+    color: var(--deep-forest);
+}
+.txt-wild-orchid {
+    color: var(--wild-orchid);
+}
+.txt-soft-mist{
+    color: var(--soft-mist);
+}
+.txt-forest-sage {
+    color: var(--forest-sage);
+}
+.txt-onyx {
+    color: #151515;
+}
+
+.bckg-deep-forest {
+    background-color: var(--deep-forest);
+}
+.bckg-wild-orchid {
+    background-color: var(--wild-orchid);
+}
+.bckg-soft-mist{
+    background-color: var(--soft-mist);
+}
+.bckg-forest-sage {
+    background-color: var(--forest-sage);
+}
+.bckg-onyx {
+    background-color: #151515;
+}
+
+/* Gerais */
+.rounded {
+    border-radius: 50px;
+}
